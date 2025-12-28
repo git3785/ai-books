@@ -3,7 +3,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 export default {
   title: 'Physical AI & Humanoid Robotics',
   tagline: 'AI-Driven Book on Advanced Robotics Systems',
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://ai-books-red.vercel.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   markdown: {
