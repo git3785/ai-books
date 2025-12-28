@@ -1,0 +1,6 @@
+{
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "زبانیں",
+    "description": "The label for the mobile language switcher dropdown"
+  }
+}

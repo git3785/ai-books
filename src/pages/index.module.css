@@ -1,0 +1,251 @@
+.heroBanner {
+  padding: 4rem 0;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, var(--book-background) 0%, #2d4379 100%);
+  color: white; /* Ensure text is white */
+}
+
+.heroGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white; /* Ensure text is white */
+}
+
+.heroImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bookImage:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 15px 10px -6px rgba(0, 0, 0, 0.1);
+}
+
+.hero__title {
+  color: white !important; /* Force white color */
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.hero__subtitle {
+  color: rgba(255, 255, 255, 0.85) !important; /* Light white color */
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.button {
+  background-color: var(--book-primary) !important;
+  border-color: var(--book-primary) !important;
+  color: rgb(255, 255, 255) !important;
+  padding: 1rem 2rem !important;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  transition: all 0.3s ease !important; /* Enhanced transition */
+  box-shadow: 0 4px 6px -1px rgb(255, 255, 255), 0 2px 4px -1px rgb(255, 255, 255);
+}
+
+.button:hover {
+  background-color: var(--book-primary-dark) !important;
+  border-color: var(--book-primary-dark) !important;
+  color: white !important; /* Ensure button text stays white */
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.3), 0 4px 6px -2px rgba(37, 99, 235, 0.2);
+  transition: all 0.3s ease !important; /* Smooth transition */
+}
+
+/* Secondary button style */
+.button--secondary {
+  background-color: var(--book-secondary) !important;
+  border-color: var(--book-secondary) !important;
+}
+
+.button--secondary:hover {
+  background-color: #6d28d9 !important;
+  border-color: #6d28d9 !important;
+  box-shadow: 0 10px 15px -3px rgba(124, 58, 237, 0.3), 0 4px 6px -2px rgba(124, 58, 237, 0.2);
+}
+
+/* Accent color for specific elements */
+.accent-color {
+  color: var(--book-accent);
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem 1rem;
+  }
+
+  .heroGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    text-align: center;
+  }
+
+  .heroContent {
+    order: 2;
+  }
+
+  .heroImage {
+    order: 1;
+    margin-bottom: 1.5rem;
+  }
+
+  .buttons {
+    justify-content: center;
+  }
+
+  .hero__title {
+    font-size: 2rem;
+  }
+
+  .hero__subtitle {
+    font-size: 1rem;
+  }
+}
+
+/* Additional spacing improvements */
+.container {
+  padding: 0 1rem;
+}
+
+/* Modules Section Styles */
+.modulesSection {
+  padding: 5rem 0;
+  background-color: var(--book-background);
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  color: var(--book-text);
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.sectionSubtitle {
+  font-size: 1.25rem;
+  color: var(--book-text-light);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.modulesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.moduleCard {
+  background: var(--book-card-bg);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  border-top: 4px solid var(--book-primary);
+  position: relative;
+  overflow: hidden;
+}
+
+.moduleCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -6px rgba(0, 0, 0, 0.06);
+}
+
+.moduleNumber {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--book-text-light);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+
+.moduleTitle {
+  font-size: 1.5rem;
+  color: var(--book-text);
+  margin: 0 0 1rem 0;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.moduleDescription {
+  color: var(--book-text-light);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  flex-grow: 1;
+}
+
+.moduleLink {
+  font-weight: 600;
+  color: var(--book-primary);
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+}
+
+.moduleLink:hover {
+  color: var(--book-primary-dark);
+}
+
+.moduleLink::after {
+  content: "→";
+  margin-left: 0.5rem;
+  transition: transform 0.2s ease;
+}
+
+.moduleCard:hover .moduleLink::after {
+  transform: translateX(3px);
+}
+
+/* Responsive adjustments for modules */
+@media screen and (max-width: 768px) {
+  .modulesSection {
+    padding: 3rem 1rem;
+  }
+
+  .sectionTitle {
+    font-size: 2rem;
+  }
+
+  .modulesGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}

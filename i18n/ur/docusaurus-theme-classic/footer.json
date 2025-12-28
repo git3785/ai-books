@@ -1,0 +1,22 @@
+{
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "یہ {siteTitle} کا غیر جاری ورژن ہے۔",
+    "description": "The label used for the unreleased version suggestion"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "یہ {siteTitle} کا غیر دیکھا ہوا ورژن ہے۔",
+    "description": "The label used for the unmaintained version warning"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "تازہ ترین ورژن {latestVersionLabel} دیکھیں:",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "یہاں کلک کریں",
+    "description": "The label used for the latest version suggestion link"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "ہیڈنگ کا مستقل ربط",
+    "description": "Title for link to heading"
+  }
+}

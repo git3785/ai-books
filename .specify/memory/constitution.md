@@ -1,55 +1,41 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+Version change: N/A → 1.0.0 (initial version)
+Added sections: Expertise, Accuracy & Verification, Clarity & Readability, Reproducibility, Modular Structure, Industry Standards, Technical Requirements, Success Criteria
+Removed sections: None
+Modified principles: N/A
+Templates requiring updates: ⚠ pending - .specify/templates/plan-template.md, .specify/templates/spec-template.md, .specify/templates/tasks-template.md, .specify/templates/commands/*.md
+Follow-up TODOs: None
+-->
+# Physical AI & Humanoid Robotics Book Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Expertise
+Write as if authored by a 30-year experienced AI/Robotics engineer. Emphasize real-world applications, best practices, and industry standards.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Accuracy & Verification
+Verify all technical claims against authoritative sources (papers, ROS 2 docs, NVIDIA Isaac docs, Gazebo/Unity docs). Cite sources inline (APA format) and provide references at the end of each chapter.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Clarity & Readability
+Academic audience, but maintain step-by-step instructions. Use examples, diagrams, and code snippets for complex concepts. Flesch-Kincaid grade 10-12.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Reproducibility
+Ensure readers can reproduce simulations and experiments. Include ROS 2 Python examples, Gazebo simulation setups, NVIDIA Isaac commands, and LLM/VLA integration steps.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### Modular Structure
+Book divided into 4 Modules + Capstone Project. Each Module includes Overview, Learning Outcomes, Step-by-step lessons, Diagrams/figures, Code snippets, References.
 
-### [PRINCIPLE_6_NAME]
+### Industry Standards
+Adhere to industry-standard tools and frameworks including ROS 2, Gazebo, Unity, NVIDIA Isaac, and best practices in AI/robotics development.
 
+## Technical Requirements
+Output format: Markdown for Docusaurus (docs/Module-Name.md). Include: Section headings (H1, H2, H3), Inline code and code blocks, Figures & diagrams (with captions), References in APA style at the end of each chapter, Word count per module: 1,200–1,500 words, Minimum sources per module: 5, with ≥50% peer-reviewed.
 
-[PRINCIPLE__DESCRIPTION]
-
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+## Success Criteria
+Chapters show industry-level expertise in Physical AI & Robotics. Technical accuracy verified against authoritative sources. Code examples and simulations are reproducible. Inline citations and full references included. Markdown ready for Docusaurus deployment.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+All content must comply with the core principles; Changes to technical content require verification against authoritative sources; Module completion requires all elements (overview, outcomes, lessons, diagrams, code, references).
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
-
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-01-16 | **Last Amended**: 2025-01-16

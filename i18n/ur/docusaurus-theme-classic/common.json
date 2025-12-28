@@ -1,0 +1,221 @@
+{
+  "theme.ErrorPageContent.title": {
+    "message": "صفحہ میں خرابی ہے",
+    "description": "The title of the error page"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "دوبارہ کوشش کریں",
+    "description": "The label of the try again button"
+  },
+  "theme.NotFound.title": {
+    "message": "صفحہ نہیں ملا",
+    "description": "The title of the 404 page"
+  },
+  "theme.NotFound.p1": {
+    "message": "آپ جس صفحہ کو تلاش کر رہے تھے وہ ہمیں نہیں مل سکا۔",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "براہ کرم سائٹ کے منتظم سے رابطہ کریں اور بتائیں کہ آپ کو کون سا ربط کام نہیں کر رہا تھا۔",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.admonition.note": {
+    "message": "نوٹ",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "ٹِپ",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.danger": {
+    "message": "خطرہ",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "معلومات",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.caution": {
+    "message": "احتیاط",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Navigation bar",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "ایک منٹ پڑھنا|{readingTime} منٹ پڑھنا",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "سائڈ بار کو بند کریں",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "سائڈ بار کو بند کریں",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Close navigation bar",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← واپس",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Toggle navigation bar",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "سائڈ بار کو کھولیں",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "سائڈ بار کو کھولیں",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.common.editThisPage": {
+    "message": "اس صفحہ میں ترمیم کریں",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "ہیڈنگ کا مستقل ربط",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " {date} کو",
+    "description": "The words used to describe on which date a page was last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": "{user} کی طرف سے",
+    "description": "The words used to describe by who the page was last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "{atDate}{byUser}",
+    "description": "The sentence used to display when a page was last updated, and by who"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Languages",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "اس صفحہ پر",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "مزید پڑھیں",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Read more about {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.titleLabel": {
+    "message": "Post title",
+    "description": "The ARIA label for the blog post title"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "جدید ترین اندراجات",
+    "description": "The text used for the link to the newer blog posts page"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "پرانے اندراجات",
+    "description": "The text used for the link to the older blog posts page"
+  },
+  "theme.blog.post.plurals": {
+    "message": "ایک پوسٹ|{count} پوسٹس",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{count} پوسٹس کے لیے ٹیگ \"{tagValue}\" کا استعمال کیا گیا",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "تمام ٹیگس دیکھیں",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "کاپی ہو گیا",
+    "description": "The copied tooltip label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "کوڈ کی کاپی کریں",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "کاپی",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "ورڈ ریپ ٹوگل کریں",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.navbar.mobileMenuButtonAriaLabel": {
+    "message": "Mobile menu",
+    "description": "The ARIA label for the mobile menu button"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "ڈارک موڈ/لائٹ موڈ ٹوگل کریں",
+    "description": "The ARIA label for the navbar color mode toggle"
+  },
+  "theme.colorToggle.darkModeButtonLabel": {
+    "message": "ڈارک موڈ",
+    "description": "The label for the dark mode button in the navbar"
+  },
+  "theme.colorToggle.lightModeButtonLabel": {
+    "message": "لائٹ موڈ",
+    "description": "The label for the light mode button in the navbar"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Home page",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Breadcrumbs",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} آئٹمز",
+    "description": "The default description for a category card"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Version: {versionLabel}"
+  },
+  "theme.docs.tagDocListPageTitle.numericSuffix.plurals": {
+    "message": "{count} دستاویز|{count} دستاویزات",
+    "description": "Pluralized suffix for \"documents\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle.nonsnumericSuffix": {
+    "message": "\"{tagLabel}\" ٹیگ والی دستاویزات",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Docs pages navigation",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "پچھلا",
+    "description": "The label used for the previous pagination button in docs"
+  },
+  "theme.docs.paginator.next": {
+    "message": "اگلا",
+    "description": "The label used for the next pagination button in docs"
+  },
+  "theme.docs.sidebar.expandVersionWarning": {
+    "message": "Some documents in other versions might be unavailable",
+    "description": "The warning message displayed when expanding older versions in the sidebar"
+  },
+  "theme.docs.sidebar.unavailable": {
+    "message": "(دستیاب نہیں)",
+    "description": "The label used to tell the document is unavailable in the current language"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "مین کنٹینٹ تک جائیں",
+    "description": "The skip to content link label"
+  }
+}
